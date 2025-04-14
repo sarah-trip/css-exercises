@@ -95,3 +95,7 @@
   font-size: 13px;
   font-weight: normal; 
 }
+
+ul {
+  list-style-type: none;
+}
