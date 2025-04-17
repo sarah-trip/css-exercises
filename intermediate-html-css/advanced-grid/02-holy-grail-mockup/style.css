@@ -48,7 +48,6 @@
   background-color: #C50208;
   grid-row: 2 / 4;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 50px;
 }
 
@@ -98,6 +97,7 @@
   font-family: sans-serif;
   color: white;
   text-align: left;
+  padding: 5px;
 }
 
 .article .card {
