@@ -65,11 +65,13 @@
   font-weight: normal;
 }
 
+.nav {
+  background-color: #C50208; 
+}
+
 .nav ul {
-  background-color: #C50208;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-content: stretch;
 }
 
 .nav ul li {
