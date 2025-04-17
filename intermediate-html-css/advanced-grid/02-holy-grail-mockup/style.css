@@ -22,7 +22,7 @@
   background-color: #393f4d;
   grid-column: 1 / span 2;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 3fr; 
 }
 
 .logo {
@@ -35,7 +35,8 @@
 
 .menu ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 150px;
 }
 
 .menu ul,
@@ -64,8 +65,11 @@
   font-weight: normal;
 }
 
-.nav {
+.nav ul {
   background-color: #C50208;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: stretch;
 }
 
 .nav ul li {
